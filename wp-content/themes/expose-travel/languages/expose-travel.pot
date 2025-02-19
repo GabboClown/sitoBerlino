@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-07 15:46+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:113
+msgid "Welcome to the"
+msgstr ""
+
+#: functions.php:114
+msgid "is now installed and ready to use."
+msgstr ""
+
+#: functions.php:117
+msgid "-pro"
+msgstr ""
+
+#: functions.php:117
+msgid "Buy Pro"
+msgstr ""
+
+#: functions.php:118
+msgid "Theme Info"
+msgstr ""
+
+#: inc/filters.php:18
+msgctxt "Used if posts or pages has no title"
+msgid "(No title)"
+msgstr ""
+
+#: inc/register-block-patterns.php:25
+msgid "Theme patterns"
+msgstr ""
+
+#: inc/register-block-styles.php:22
+msgid "Flat button"
+msgstr ""
+
+#: inc/register-block-styles.php:30
+msgid "Underlined list items"
+msgstr ""
+
+#: inc/register-block-styles.php:38 inc/register-block-styles.php:46
+#: inc/register-block-styles.php:54
+msgid "Box shadow"
+msgstr ""
+
+#: inc/register-block-styles.php:62
+msgid "Plus & minus"
+msgstr ""
+
+#: patterns/callback.php:27 patterns/tour-categories.php:25
+msgid "READY TO TRAVEL?"
+msgstr ""
+
+#: patterns/callback.php:32
+msgid "Ready To Adventure &amp; Enjoy"
+msgstr ""
+
+#: patterns/callback.php:32
+msgid "The Best Travel Journey."
+msgstr ""
+
+#: patterns/callback.php:41
+msgid "EXPLORE TOURS"
+msgstr ""
+
+#: patterns/columns-with-images.php:20 patterns/columns-with-images.php:26
+#: patterns/columns-with-images.php:38
+msgctxt "sample content"
+msgid "Sample content. Replace the text with your own content."
+msgstr ""
+
+#: patterns/comments.php:17
+msgid "Comments"
+msgstr ""
+
+#: patterns/destination.php:21
+msgid "DESTINATION"
+msgstr ""
+
+#: patterns/destination.php:26
+msgid "Our Most Popular Travel Destination Tours"
+msgstr ""
+
+#: patterns/destination.php:32
+msgid ""
+"Pariatur ligula aperiam inventore senectus volutpat auctor erat labore "
+"dolore parturient dolorum dictum commodi posuere metus montes, qui eveniet."
+msgstr ""
+
+#: patterns/destination.php:60 patterns/destination.php:182
+msgid "6 TOURS"
+msgstr ""
+
+#: patterns/destination.php:70 patterns/destination.php:94
+#: patterns/destination.php:118 patterns/destination.php:144
+#: patterns/destination.php:168 patterns/destination.php:192
+msgid "Travel to"
+msgstr ""
+
+#: patterns/destination.php:74
+msgid "South America"
+msgstr ""
+
+#: patterns/destination.php:84
+msgid "7 TOURS"
+msgstr ""
+
+#: patterns/destination.php:98
+msgid "United Kingdom"
+msgstr ""
+
+#: patterns/destination.php:108
+msgid "5 TOUR"
+msgstr ""
+
+#: patterns/destination.php:122
+msgid "France"
+msgstr ""
+
+#: patterns/destination.php:134
+msgid "4 TOURS"
+msgstr ""
+
+#: patterns/destination.php:148
+msgid "Thailand"
+msgstr ""
+
+#: patterns/destination.php:158
+msgid "9 TOURS"
+msgstr ""
+
+#: patterns/destination.php:172
+msgid "Singapore"
+msgstr ""
+
+#: patterns/destination.php:196
+msgid "Switzerland"
+msgstr ""
+
+#: patterns/destination.php:206
+msgid "25%"
+msgstr ""
+
+#: patterns/destination.php:210
+msgid "DISCOUNT OFFER"
+msgstr ""
+
+#: patterns/destination.php:214
+msgid "Sign up &amp; Get Heavy Discount !"
+msgstr ""
+
+#: patterns/destination.php:219
+msgid "VIEW DEALS"
+msgstr ""
+
+#: patterns/footer.php:20
+msgid ""
+"Venenatis arcu autem, mollis! Urna doloribus cum nihil donec aliquip id "
+"hendrerit parturient corrupti velit lect."
+msgstr ""
+
+#: patterns/footer.php:38
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer.php:46
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer.php:54
+msgid "Company Info"
+msgstr ""
+
+#: patterns/footer.php:58
+msgid "Jl. Niti Mandala Renon No.88, Denpasar, Bali - 80239"
+msgstr ""
+
+#: patterns/footer.php:62
+msgid "Phone : (316) 212-3456"
+msgstr ""
+
+#: patterns/footer.php:62
+msgid "Email : xyz@example.com"
+msgstr ""
+
+#: patterns/footer.php:75
+msgid "Copyright 2024. All right reserved."
+msgstr ""
+
+#: patterns/hero.php:23
+msgid "TRAVEL &amp; TOUR BUSINESS"
+msgstr ""
+
+#: patterns/hero.php:28
+msgid "Best Journeys Not Just Trips !"
+msgstr ""
+
+#: patterns/hero.php:32
+msgid ""
+"Porro sapien consectetur semper quam curae voluptate vehicula, nec nisi "
+"expedita aliquip nibh explicabo, dolorem, sint. Corrupti donec pariatur. "
+"Ullamcorper, eu enim proin beatae, consequatur semper vivamus."
+msgstr ""
+
+#: patterns/hero.php:38
+msgid "EXPLORE TRIPS"
+msgstr ""
+
+#: patterns/hero.php:44 patterns/tour-categories.php:43
+msgid "LEARN MORE"
+msgstr ""
+
+#: patterns/hidden-404.php:25
+msgid "Page not found"
+msgstr ""
+
+#: patterns/hidden-404.php:30
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-footer-links.php:21
+#, php-format
+msgid "Copyright %s. "
+msgstr ""
+
+#: patterns/hidden-footer-links.php:22
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: patterns/hidden-footer-links.php:24
+msgid "All right reserved."
+msgstr ""
+
+#: patterns/hidden-post-meta.php:21
+msgid "Categories: "
+msgstr ""
+
+#: patterns/query.php:44
+msgid "No results"
+msgstr ""
+
+#: patterns/tour-categories.php:30
+msgid "Ready To Travel With Real Adventure &amp; Enjoy Natural !"
+msgstr ""
+
+#: patterns/tour-categories.php:34
+msgid ""
+"Justo impedit mi aliquid class placeat mus, ad duis maecenas eligendi cillum "
+"blandit eiusmod temporibus repellat laboris moles."
+msgstr ""
+
+#: patterns/tour-categories.php:39
+msgid "CHECK AVAILABILITY"
+msgstr ""
+
+#: patterns/tour-categories.php:58
+msgid "Adventure Tours"
+msgstr ""
+
+#: patterns/tour-categories.php:70
+msgid "Wildlife Safari Tours"
+msgstr ""
+
+#: patterns/tour-categories.php:84
+msgid "Religious Place Tours"
+msgstr ""
+
+#: patterns/tour-categories.php:96
+msgid "Paragliding Tours"
+msgstr ""
