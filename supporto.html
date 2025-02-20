@@ -7,33 +7,17 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="tailwind.config.js"></script>
+  <script src="components/components.js"></script>
 </head>
 <body class="m-0 font-lato bg-gray-100 text-gray-800">
 
-  <!-- Header -->
-  <header class="relative flex items-center justify-center h-[40vh] bg-cover bg-center" style="background-image: url('immagini/header.jpg');">
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-    <h1 class="z-10 text-3xl md:text-5xl text-white text-center">Supporto</h1>
-  </header>
+  <div id="header" title="Supporto">
+    <!-- Header, inserito da components.js -->
+  </div>
 
-  <!-- Menu di Navigazione -->
-  <nav class="bg-red flex justify-center flex-wrap">
-    <ul class="flex m-0 p-0 list-none">
-      <li>
-        <a href="index.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Home</a>
-      </li>
-      <li>
-        <a href="itinerario.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Itinerario</a>
-      </li>
-      <li>
-        <a href="supporto.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Supporto</a>
-      </li>
-      <li>
-        <a href="menu.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Menu</a>
-      </li>
-    </ul>
-  </nav>
+  <div id="navbar">
+    <!-- Menu di navigazione, inserito da components.js -->
+  </div>
 
   <!-- Contenitore Principale -->
   <div class="container max-w-3xl mx-auto p-5">
@@ -60,10 +44,9 @@
     </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="bg-black text-white text-center py-4 mt-10">
-    <p>&copy; 2023 Esplora Berlino. Tutti i diritti riservati.</p>
-  </footer>
+  <div id="footer">
+    <!-- Footer, inserito da components.js -->
+  </div>
 
 </body>
 </html>
