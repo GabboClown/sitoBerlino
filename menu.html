@@ -3,40 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <title>Esplora Berlino - Menu Generale</title>
+  <!-- Importa il font Lato -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <!-- Includi Tailwind CSS v3.x.x tramite CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Configurazione Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'lato': ['Lato', 'sans-serif'],
+          },
+          colors: {
+            red: '#FF0000',
+            yellow: '#FFD700',
+          },
+        }
+      }
+    }
+  </script>
 </head>
-<body>
+<body class="m-0 font-lato bg-gray-100 text-gray-800">
 
-  <header>
-    <h1>Menu Generale</h1>
+  <!-- Header -->
+  <header class="relative flex items-center justify-center h-[40vh] bg-cover bg-center" style="background-image: url('immagini/header.jpg');">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <h1 class="z-10 text-3xl md:text-5xl text-white text-center">Menu Generale</h1>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="itinerario.html">Itinerario</a></li>
-      <li><a href="supporto.html">Supporto</a></li>
-      <li><a href="menu.html">Menu</a></li>
+  <!-- Menu di Navigazione -->
+  <nav class="bg-red flex justify-center flex-wrap">
+    <ul class="flex m-0 p-0 list-none">
+      <li>
+        <a href="index.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Home</a>
+      </li>
+      <li>
+        <a href="itinerario.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Itinerario</a>
+      </li>
+      <li>
+        <a href="supporto.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Supporto</a>
+      </li>
+      <li>
+        <a href="menu.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Menu</a>
+      </li>
     </ul>
   </nav>
 
-  <div class="container">
-    <div class="section">
-      <div class="section-content">
-        <h2>Esplora le nostre sezioni</h2>
-        <ul>
-          <li><a href="itinerario.html">Itinerario Completo</a></li>
-          <li><a href="gastronomia.html">Gastronomia</a></li>
-          <li><a href="eventi.html">Eventi e Vita Notturna</a></li>
-          <li><a href="supporto.html">Supporto</a></li>
-          <!-- Aggiungi altri link se necessario -->
-        </ul>
-      </div>
+  <!-- Contenitore Principale -->
+  <div class="container max-w-5xl mx-auto p-5">
+    <div class="bg-white border-l-4 border-yellow shadow-lg p-5">
+      <h2 class="text-red mt-0">Esplora le nostre sezioni</h2>
+      <ul class="list-disc list-inside mt-4">
+        <li><a href="itinerario.html" class="text-blue-600 hover:underline">Itinerario Completo</a></li>
+        <li><a href="gastronomia.html" class="text-blue-600 hover:underline">Gastronomia</a></li>
+        <li><a href="eventi.html" class="text-blue-600 hover:underline">Eventi e Vita Notturna</a></li>
+        <li><a href="supporto.html" class="text-blue-600 hover:underline">Supporto</a></li>
+        <!-- Aggiungi altri link se necessario -->
+      </ul>
     </div>
   </div>
 
-  <footer>
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4 mt-10">
     <p>&copy; 2023 Esplora Berlino. Tutti i diritti riservati.</p>
   </footer>
 

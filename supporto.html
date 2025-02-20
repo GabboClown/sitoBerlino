@@ -3,45 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <title>Esplora Berlino - Supporto</title>
+  <!-- Importa il font Lato -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <!-- Includi Tailwind CSS v3.x.x tramite CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Configurazione Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'lato': ['Lato', 'sans-serif'],
+          },
+          colors: {
+            red: '#FF0000',
+            yellow: '#FFD700',
+          },
+        }
+      }
+    }
+  </script>
 </head>
-<body>
+<body class="m-0 font-lato bg-gray-100 text-gray-800">
 
-  <header>
-    <h1>Supporto</h1>
+  <!-- Header -->
+  <header class="relative flex items-center justify-center h-[40vh] bg-cover bg-center" style="background-image: url('immagini/header.jpg');">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <h1 class="z-10 text-3xl md:text-5xl text-white text-center">Supporto</h1>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="itinerario.html">Itinerario</a></li>
-      <li><a href="supporto.html">Supporto</a></li>
-      <li><a href="menu.html">Menu</a></li>
+  <!-- Menu di Navigazione -->
+  <nav class="bg-red flex justify-center flex-wrap">
+    <ul class="flex m-0 p-0 list-none">
+      <li>
+        <a href="index.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Home</a>
+      </li>
+      <li>
+        <a href="itinerario.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Itinerario</a>
+      </li>
+      <li>
+        <a href="supporto.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Supporto</a>
+      </li>
+      <li>
+        <a href="menu.html" class="text-white py-4 px-5 block transition duration-300 hover:bg-yellow hover:text-black">Menu</a>
+      </li>
     </ul>
   </nav>
 
-  <div class="container">
-    <div class="section">
-      <div class="section-content">
-        <h2>Come possiamo aiutarti?</h2>
-        <p>
-          Per qualsiasi domanda o informazione, non esitare a contattarci tramite il modulo sottostante.
-        </p>
-        <form>
-          <label for="nome">Nome:</label><br>
-          <input type="text" id="nome" name="nome" required><br><br>
-          <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email" required><br><br>
-          <label for="messaggio">Messaggio:</label><br>
-          <textarea id="messaggio" name="messaggio" rows="5" required></textarea><br><br>
-          <input type="submit" value="Invia" class="button">
-        </form>
-      </div>
+  <!-- Contenitore Principale -->
+  <div class="container max-w-3xl mx-auto p-5">
+    <div class="bg-white border-l-4 border-yellow shadow-lg p-5">
+      <h2 class="text-red mt-0">Come possiamo aiutarti?</h2>
+      <p class="leading-relaxed">
+        Per qualsiasi domanda o informazione, non esitare a contattarci tramite il modulo sottostante.
+      </p>
+      <form class="mt-5">
+        <div class="mb-4">
+          <label for="nome" class="block text-gray-700">Nome:</label>
+          <input type="text" id="nome" name="nome" required class="w-full mt-1 px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700">Email:</label>
+          <input type="email" id="email" name="email" required class="w-full mt-1 px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow">
+        </div>
+        <div class="mb-4">
+          <label for="messaggio" class="block text-gray-700">Messaggio:</label>
+          <textarea id="messaggio" name="messaggio" rows="5" required class="w-full mt-1 px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow"></textarea>
+        </div>
+        <input type="submit" value="Invia" class="bg-red text-white py-2 px-4 rounded hover:bg-yellow hover:text-black transition duration-300 cursor-pointer">
+      </form>
     </div>
   </div>
 
-  <footer>
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4 mt-10">
     <p>&copy; 2023 Esplora Berlino. Tutti i diritti riservati.</p>
   </footer>
 
