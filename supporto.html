@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Esplora Berlino - Supporto</title>
   <link rel="shortcut icon" href="immagini/logo.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
@@ -9,7 +10,7 @@
   <script src="tailwind.config.js"></script>
   <script src="components/components.js"></script>
 </head>
-<body class="m-0 font-lato bg-gray-100 text-gray-800">
+<body class="font-lato text-gray-800 bg-gray-100">
 
   <div id="header" title="Supporto">
     <!-- Header, inserito da components.js -->
@@ -20,12 +21,11 @@
   </div>
 
   <!-- Contenitore Principale -->
-  <div class="container max-w-3xl mx-auto p-5">
-    <div class="bg-white border-l-4 border-yellow shadow-lg p-5">
-      <h2 class="text-red mt-0">Come possiamo aiutarti?</h2>
-      <p class="leading-relaxed">
-        Per qualsiasi domanda o informazione, non esitare a contattarci tramite il modulo sottostante.
-      </p>
+  <div class="container mx-auto p-5">
+    <div class="bg-white border-l-4 border-yellow shadow-lg p-5 max-w-full sm:max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl mx-auto">
+      <h2 class="text-red mt-0 text-center sm:text-left text-2xl sm:text-3xl">Come possiamo aiutarti?</h2>
+      <p class="leading-relaxed text-center sm:text-left text-lg mt-2">Per qualsiasi domanda o informazione, non esitare a contattarci tramite il modulo sottostante.</p>
+      
       <form class="mt-5">
         <div class="mb-4">
           <label for="nome" class="block text-gray-700">Nome:</label>
@@ -39,7 +39,7 @@
           <label for="messaggio" class="block text-gray-700">Messaggio:</label>
           <textarea id="messaggio" name="messaggio" rows="5" required class="w-full mt-1 px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-yellow"></textarea>
         </div>
-        <input type="submit" value="Invia" class="bg-red text-white py-2 px-4 rounded hover:bg-yellow hover:text-black transition duration-300 cursor-pointer">
+        <input type="submit" value="Invia" class="bg-red text-white py-2 px-4 rounded hover:bg-yellow hover:text-black transition duration-300 cursor-pointer w-full sm:w-auto">
       </form>
     </div>
   </div>
